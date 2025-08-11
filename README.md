@@ -11,5 +11,6 @@ Simple, readable utility that generates all anagrams (permutations) for a string
 
 ## How to run (Maven)
 ```bash
-mvn -q -DskipTests package
-mvn -q test
+mvn package
+mvn test
+java -jar target/anagram-generator-1.0.0.jar
