@@ -11,6 +11,12 @@ Simple, readable utility that generates all anagrams (permutations) for a string
 
 ## How to run (Maven)
 ```bash
+
+# Compile and generate the jar
 mvn package
+
+# Start Test
 mvn test
+
+# Run the mains class jar generated
 java -jar target/anagram-generator-1.0.0.jar
